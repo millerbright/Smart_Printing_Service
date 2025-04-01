@@ -20,9 +20,9 @@
 
 🎓 The main goal of the system is to minimize waiting time and enhance the printing experience for students while ensuring seamless integration with existing payment and data management platforms.
 
-<p align="center"><img src="assets/gd.png" alt="logo1" width="100"></p>
+<p align="center"><img src="assets/gd.png" alt="logo1" width="800"></p>
 
-<p align="center"><img src="assets/gd2.png" alt="logo2" width="100"></p>
+<p align="center"><img src="assets/gd2.png" alt="logo2" width="800"></p>
 
 ## 🛠**Technologies Used**
 
@@ -167,11 +167,11 @@ The source code of the software can be accessed via the following link:
 
 ## 📌**Use case diagram** 
 
-<p align="center"><img src="assets/uc.png" alt="uc" width="400"></p>
+<p align="center"><img src="assets/uc.png" alt="uc" width="600"></p>
 
 ## 📌**Class diagram** 
 
-<p align="center"><img src="assets/class.png" alt="class" width="400"></p>
+<p align="center"><img src="assets/class.png" alt="class" width="600"></p>
 
 The class diagram describes the print service management system, including key classes such as `User, Student, SPSO, SystemConfiguration, Report, PaymentTransaction, PrintingHistory, PrintJob, Printer, PrintProperties, Document, and Location`.
 - User and Student are two main classes that extend from a base class. Users can perform actions such as `resetPassword()`, `authenticate()`, and `updateProfile()`, while Student includes additional printing-related functionalities such as `viewPrintingHistory()`, `buyPages()`, `schedulePrinting()`, and `checkBalance()`.
