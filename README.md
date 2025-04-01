@@ -20,9 +20,26 @@
 
 🎓 The main goal of the system is to minimize waiting time and enhance the printing experience for students while ensuring seamless integration with existing payment and data management platforms.
 
-<p align="center"><img src="assets/temporary.png" alt="logo" width="100"></p>
+<p align="center"><img src="assets/gd.png" alt="logo1" width="100"></p>
+
+<p align="center"><img src="assets/gd2.png" alt="logo2" width="100"></p>
 
 ## 🛠**Technologies Used**
+
+The HCMUT-SSPS system is built using a modern technology stack to ensure efficiency, scalability, and user-friendliness. Below are the key technologies utilized in its development:
+- Backend
+  - `MongoDB` – A NoSQL database used for efficient data storage and retrieval.
+  - `ExpressJS` – A lightweight and flexible Node.js framework for building the backend API.
+- Frontend
+  - `ReactJS` – A JavaScript library for building an interactive and responsive user interface.
+- Payment Integration
+  - `PayOS` – A secure and seamless online payment gateway to facilitate cashless transactions.
+- Development & Design Tools
+  - `Postman` – Used for API testing and development.
+  - `Draw.io` – A tool for designing system diagrams and workflows.
+  - `Figma` – A collaborative UI/UX design tool.
+  - `GitHub` – A version control system to manage and track code changes.
+This tech stack ensures that HCMUT-SSPS operates efficiently, providing a seamless experience for students while maintaining high performance and security
 
 
 ## 🚀**Source code:**
@@ -150,11 +167,11 @@ The source code of the software can be accessed via the following link:
 
 ## 📌**Use case diagram** 
 
-<p align="center"><img src="assets/temporary.png" alt="csdl" width="400"></p>
+<p align="center"><img src="assets/uc.png" alt="uc" width="400"></p>
 
 ## 📌**Class diagram** 
 
-<p align="center"><img src="assets/temporary.png" alt="csdl" width="400"></p>
+<p align="center"><img src="assets/class.png" alt="class" width="400"></p>
 
 The class diagram describes the print service management system, including key classes such as `User, Student, SPSO, SystemConfiguration, Report, PaymentTransaction, PrintingHistory, PrintJob, Printer, PrintProperties, Document, and Location`.
 - User and Student are two main classes that extend from a base class. Users can perform actions such as `resetPassword()`, `authenticate()`, and `updateProfile()`, while Student includes additional printing-related functionalities such as `viewPrintingHistory()`, `buyPages()`, `schedulePrinting()`, and `checkBalance()`.
@@ -168,20 +185,17 @@ The class diagram describes the print service management system, including key c
 Our team has designed the user interface using Figma. To view the detailed MVP 1 design, please access the Figma design [here](https://www.figma.com/design/5M6OHNT6IMSLUMfqzglkhf/CNPM?node-id=0-1&p=f).
 
 <p align="center">
-<img src="assets/temporary.png" alt="Ctmn" width="200">
+<img src="assets/mvp.png" alt="mvp" width="600">
 </p>
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh" width="200">
+<img src="assets/mvp1.png" alt="mvp1" width="600">
 </p>
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh2" width="200">
+<img src="assets/mvp2.png" alt="mvp2" width="600">
 </p>
 
-<p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
-</p>
 
 ## 📌**Architecture design**
 
@@ -197,7 +211,7 @@ To build the HCMUT_SSPS smart printing service website, the team adopts the MVC 
 **2. Architectural Diagram**
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/ad.png" alt="ad" width="600">
 </p>
 
 **3. Architectural Diagram Description**
@@ -233,7 +247,7 @@ For the system architecture, the team utilizes the **MERN stack (MongoDB, Expres
 **1. Component Diagram for Student Document Printing Function**
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/cd.png" alt="cd" width="600">
 </p>
 
 Description of the Document Printing Component Diagram:
@@ -281,7 +295,7 @@ Description of the Document Printing Component Diagram:
 **2. Component Diagram for the Entire System**
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/cd2.png" alt="cd2" width="600">
 </p>
 
 Description of the Entire System Component Diagram:
@@ -351,7 +365,7 @@ The system is designed and built using a combination of modern technologies, div
 
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/cn.png" alt="cn" width="500">
 </p>
 
 - Core Technologies:
@@ -361,7 +375,7 @@ The system is designed and built using a combination of modern technologies, div
   - PayOS: PayOS is a payment platform integrated to securely and efficiently process financial transactions. It supports various payment methods, including credit cards, e-wallets, and bank transfers, catering to diverse user needs. Integrating PayOS into the system ensures high security in transactions and minimizes fraud risks.
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/cn2.png" alt="cn2" width="500">
 </p>
 
 - Supporting Technologies:
@@ -376,7 +390,7 @@ The system is designed and built using a combination of modern technologies, div
 The team has set up a GitHub repository, accessible [here](https://github.com/ngochidung2111/CNPM).
 
 <p align="center">
-<img src="assets/temporary.png" alt="mh3" width="200">
+<img src="assets/git.png" alt="git" width="500">
 </p>
 
 This repository stores the source code for the `Student Smart Printing Service at HCMUT`, developed by `team L03 for the Software Engineering course`. It includes the following main components:
@@ -430,7 +444,17 @@ Usability testing is the process of evaluating the effectiveness, ease of use, a
   - Introduction and Instructions: Explain the testing objectives. Provide guidance on using Figma and following test scenarios.
   - Providing Figma Access: Share the Figma interface link, ensuring access permissions and interactivity.
   - Performing the Test: Users utilize Figma’s presentation mode to complete tasks based on the test scenarios, record task completion times, and provide interface feedback.
+
+<p align="center">
+<img src="assets/figma.png" alt="figma" width="500">
+</p>
+
   - Collecting Feedback: Users fill out a feedback form (Google Forms) regarding their experience, challenges, and improvement suggestions.
+
+<p align="center">
+<img src="assets/mh.png" alt="mh" width="500">
+</p>
+
 - Data Collection and Analysis:
   - Data Collection:
     - Task completion time: Record the average time taken to complete tasks.
@@ -461,28 +485,96 @@ The usability testing of the SSPS project interface helped the team identify its
 
 **1. Login**
 - First, access the homepage of the website, then select "Login":
+
+<p align="center">
+<img src="assets/gd.png" alt="gd" width="500">
+</p>
+
 - The role selection interface will be displayed. Choose one of the two roles to proceed with login:
+
+<p align="center">
+<img src="assets/gd2.png" alt="gd2" width="500">
+</p>
+
 - Enter the student ID (MSSV) and password to log in.
+
+<p align="center">
+<img src="assets/gd3.png" alt="gd3" width="500">
+</p>
 
 **2. Actions for SPSO**
 - After successfully logging in as an SPSO, the system will redirect to the homepage. Select "Manage" to access the management interface for SPSO.
 
+<p align="center">
+<img src="assets/gd4.png" alt="gd4" width="500">
+</p>
+
 - The first section is the printer management interface. Here, you can turn printers on/off, add new printers, edit existing printer information, and remove printers from the system.
+
+<p align="center">
+<img src="assets/gd5.png" alt="gd5" width="500">
+</p>
 
 - Next is the system configuration interface, where you can adjust system parameters.
 
+<p align="center">
+<img src="assets/gd6.png" alt="gd6" width="500">
+</p>
+
 - Following that is the print history interface. You can view the printing history of all students.
+
+<p align="center">
+<img src="assets/gd7.png" alt="gd7" width="500">
+</p>
 
 - Finally, the transaction history interface allows you to view all students' paper purchase history.
 
+<p align="center">
+<img src="assets/gd8.png" alt="gd8" width="500">
+</p>
+
 **3. Actions for Students**
 - Similar to SPSO, after successfully logging in as a student, the system will also redirect to the homepage. Select "Print Now" to access the student interface.
+
+<p align="center">
+<img src="assets/gd9.png" alt="gd9" width="500">
+</p>
+
 - The first section is the document printing page. Here, you can select documents, choose a printer, specify the number of pages, paper size, single/double-sided printing, and the number of copies to print.
+
+<p align="center">
+<img src="assets/gd10.png" alt="gd10" width="500">
+</p>
+
 - Next is the page purchase section. Enter the number of pages needed and proceed with the purchase.
+
+<p align="center">
+<img src="assets/gd11.png" alt="gd11" width="500">
+</p>
+
 - The system will display a QR code for payment.
+
+<p align="center">
+<img src="assets/gd12.png" alt="gd12" width="500">
+</p>
+
 - Once the system confirms a successful payment, the website will redirect to the payment result page.
+
+<p align="center">
+<img src="assets/gd13.png" alt="gd13" width="500">
+</p>
+
 - Following that is the print history page, where you can view your own print history and filter by date.
+
+<p align="center">
+<img src="assets/gd14.png" alt="gd14" width="500">
+</p>
+
 - Finally, the transaction history page allows you to view your own purchase history.
+
+<p align="center">
+<img src="assets/gd16.png" alt="gd16" width="500">
+</p>
 
 ## 📌**Conclusion**
 
